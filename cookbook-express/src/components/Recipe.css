@@ -1,0 +1,22 @@
+.RecipeInstructions {
+  text-align: left;
+  padding: 10px;
+}
+
+.RecipeIntroduction {
+  padding: 10px;
+}
+
+.RecipeImgContainer {
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .Recipe {
+      display: flex;
+      flex-direction: row;
+    }
+    .RecipeImgContainer {
+      margin-right: 20px;
+    }
+  }

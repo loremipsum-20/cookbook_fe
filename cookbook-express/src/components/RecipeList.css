@@ -1,0 +1,54 @@
+.ButtonContainer {
+  margin: 0 auto;
+  margin-bottom: 5px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  height: auto;
+  z-index: 1;
+}
+
+.PostsContainer {
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+}
+
+.CardBox {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+
+}
+
+button {
+  margin: 5px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .PostsContainer {
+     max-width: 1000px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin: 0 auto;
+    }
+
+    .ButtonContainer {
+    position: fixed;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    }
+
+    .CardBox {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    main {
+      margin: 0 auto;
+      margin-bottom: 130px;
+    }
+  }

@@ -1,0 +1,32 @@
+.card-img-top {
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.CardBox {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.CardTitle {
+font-weight: bold;
+}
+
+.CardBody {
+  position: relative;
+}
+
+.CardText {
+  margin-bottom: 40px;
+}
+
+.CardButton {
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+  right: 35%;
+}
